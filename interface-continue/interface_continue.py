@@ -9,22 +9,6 @@ from tkinter.messagebox import *
 import sys, fileinput
 
 
-def one():
-    print('k')
-
-def two():
-    print('ok')
-
-def three():
-    pass
-
-def four():
-    pass
-
-def five():
-    pass
-
-
 root=Tk()
 root.geometry("500x400")
 root.title('Опросник')
@@ -75,13 +59,15 @@ btn.grid(column=1, row=0)
 btn1 = Button(tab4, text="нет")  
 btn1.grid(column=2, row=0) 
 
+mas1 = 955
+
 lbl1 = Label(tab5,)  
 lbl1.grid(column=0, row=0)  
 btn = Button(tab5, text="да")  
 btn.grid(column=1, row=0)
 btn1 = Button(tab5, text="нет")  
 btn1.grid(column=2, row=0) 
-l1 = Label(text='mas1', font="Arial 11")
+l1 = Label(text=mas1, font="Arial 11")
 l1.config(bd=30)
 l1.pack()
 tabs.pack(fill='both')
