@@ -10,10 +10,10 @@ import sys, fileinput
 
 
 def one():
-    print('sasi')
+    print('k')
 
 def two():
-    print('sasi hui')
+    print('ok')
 
 def three():
     pass
